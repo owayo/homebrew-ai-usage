@@ -7,11 +7,11 @@ class AiUsage < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/ai-usage/releases/download/v26.9.100/ai-usage-aarch64-apple-darwin.tar.gz"
-      sha256 "ef674e85d8de250378f2755295ce8e112b9e7592303cef8daceeeb785cea37de"
+      url "https://github.com/owayo/ai-usage/releases/download/v26.10.100/ai-usage-aarch64-apple-darwin.tar.gz"
+      sha256 "6f1e6ac2a47ab82e3fe719aed1b684ba7dce4fa34d5b6576f50f29cf2cf59f97"
     else
-      url "https://github.com/owayo/ai-usage/releases/download/v26.9.100/ai-usage-x86_64-apple-darwin.tar.gz"
-      sha256 "5a8249a8832be2a804045ccb96611171a0f0cbf8ec8df58aa00cd9b9b0326895"
+      url "https://github.com/owayo/ai-usage/releases/download/v26.10.100/ai-usage-x86_64-apple-darwin.tar.gz"
+      sha256 "5c1fb143eaecc906f08a2f24398aafaad829e29bc7cca72a48e2a1499e2f223e"
     end
   end
 
